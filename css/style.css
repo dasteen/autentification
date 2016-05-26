@@ -1,0 +1,169 @@
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+h1 {
+	margin: 0;
+}
+
+.logo h1 {
+	margin-top: 17px;
+}
+
+.wrapper {
+	background-color: #DBDBDB;
+	height: 100%;
+	min-width: 900px;
+	overflow: hidden;
+	position: relative;
+}
+
+header {
+	min-width:900px;
+	height: 70px;
+	background-color: #333A51;
+}
+
+.toolbar {
+	background-color: #bbbbcc;
+	height: 10px;
+}
+
+.logo_img {
+	width: 70px;
+	height: 70px;
+}
+
+.logo {
+	color: #ffffff;
+	float: left;
+}
+
+.pic {
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 70px;
+}
+
+
+main {
+	color: #555555;
+	margin: auto;
+	width: 435px;
+	margin-top: 60px;
+	font-weight: bold;
+	font-size: 12px;
+	padding-left: 90px;
+}
+
+.login {
+	float: left;
+}
+
+.main_content h1 {
+	margin-bottom: 20px;
+	color: #333A51;
+	font-size: 30px;
+}
+
+.main_content span {
+	display: block;
+	margin-bottom: 15px;
+}
+
+.reg {
+	text-align: right;
+}
+
+form div {
+	margin-bottom: 8px;
+	font-family: sans-serif;
+}
+
+form {
+	width: 320px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.reg input {
+	width: 220px;
+	height: 25px;
+	padding: 2px;
+	border-radius: 5px;
+	border-width: 1px;
+	border: 1.5px solid #A0A0A0;
+}
+
+.reg label {
+	padding-right: 5px;
+}
+
+.check {
+	text-align: center;
+	padding-right: 11px;
+	margin-bottom: 15px;
+}
+
+.buttons {
+	height: 30px;	
+	width: 150px;
+	border-radius: 5px;
+	display: inline-block;
+	border: 1.5px solid #A0A0A0;
+	background: linear-gradient(to top, #9D9AC7, #D0D5FB);
+}
+
+.buttons:active,
+.buttons:focus {
+	outline: none;
+} 	
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.empty {
+	height: 70px;
+}
+
+footer {
+	background-color: #333A51;
+	height: 70px;
+	margin-top: -70px;
+	position:relative;
+	min-width: 900px;
+}
+
+li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 14px;
+}
+
+ul a, ul {
+	color: #ffffff;
+}
+
+.links {
+	margin: 0 auto;
+}
+
+.clearfix {
+	content:"";
+	display: table;
+	clear: both;
+}
